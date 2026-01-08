@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Vacuumtube
+Comment=YouTube Desktop Client
+Exec=/usr/bin/startvacuumtube
+Icon=vacuumtube
+Type=Application
+Categories=AudioVideo;Video;Player;
+Keywords=youtube;tube;vacuumtube;
+Terminal=false

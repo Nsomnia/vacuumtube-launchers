@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Tube
+Comment=Launch Vacuumtube as Tube
+Exec=/usr/bin/startvacuumtube
+Icon=vacuumtube
+Type=Application
+Categories=AudioVideo;Video;Player;
+NoDisplay=false

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=YouTube
+Comment=Launch Vacuumtube as YouTube
+Exec=/usr/bin/startvacuumtube
+Icon=vacuumtube
+Type=Application
+Categories=AudioVideo;Video;Player;
+NoDisplay=false
