@@ -11,9 +11,6 @@ echo "" # New line after password input
 echo "--- Cleaning up legacy junior-tier symlinks ---"
 echo "$PASSWORD" | sudo -S rm -f /usr/bin/vacuumtube /usr/bin/youtube /usr/sbin/vacuumtube /usr/sbin/youtube
 
-echo "--- Installing the Senior Dev wrapper script ---"
-echo "$PASSWORD" | sudo -S install -Dm755 startvacuumtube /usr/bin/startvacuumtube
-
 echo "--- Installing the Elite Icon ---"
 echo "$PASSWORD" | sudo -S install -Dm644 vacuumtube.svg /usr/share/icons/hicolor/scalable/apps/vacuumtube.svg
 

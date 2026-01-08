@@ -8,21 +8,16 @@ arch=('any')
 url="https://github.com/Nsomnia/vacuumtube-launchers"
 license=('MIT')
 depends=('electron' 'vacuumtube') # Assuming vacuumtube package provides /usr/share/vacuumtube/app.asar
-source=('startvacuumtube'
-        'vacuumtube.desktop'
+source=('vacuumtube.desktop'
         'youtube.desktop'
         'tube.desktop'
         'vacuumtube.svg')
 sha256sums=('SKIP'
             'SKIP'
             'SKIP'
-            'SKIP'
             'SKIP')
 
 package() {
-    # Install the wrapper script
-    install -Dm755 "${srcdir}/startvacuumtube" "${pkgdir}/usr/bin/startvacuumtube"
-
     # Install the desktop files
     install -Dm644 "${srcdir}/vacuumtube.desktop" "${pkgdir}/usr/share/applications/vacuumtube.desktop"
     install -Dm644 "${srcdir}/youtube.desktop" "${pkgdir}/usr/share/applications/youtube.desktop"
