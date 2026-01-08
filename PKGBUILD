@@ -5,6 +5,7 @@ pkgver=1.0.0
 pkgrel=1
 pkgdesc="Elite desktop launchers for the Vacuumtube YouTube client (Youtube, Tube, Vacuumtube)"
 arch=('any')
+options=('!strip')
 url="https://github.com/Nsomnia/vacuumtube-launchers"
 license=('MIT')
 depends=('electron' 'vacuumtube') # Assuming vacuumtube package provides /usr/share/vacuumtube/app.asar
